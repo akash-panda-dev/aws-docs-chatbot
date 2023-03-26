@@ -279,7 +279,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'What is this legal case about?'
+                        : 'Ask me any techinal AWS question like How do I create DynamoDB Streams ?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
